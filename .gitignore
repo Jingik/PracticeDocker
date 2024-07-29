@@ -210,3 +210,5 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/database,python,javamaster_db/data/
 slave_db/data/
+master_db/data/
+slave_db/data/
