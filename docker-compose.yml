@@ -6,7 +6,7 @@ services:
     container_name: db_master # container 이름 설정
     restart: always
     environment:
-      # MariaDB 사용할 때 Spring Boot
+      # MariaDB 사용할 때 Spring Boot.
       MARIADB_ROOT_PASSWORD: aroundhub12# # container 생성 후 root의 비밀번호를 저장한 파일을 설정함으로서 root 비밀번호를 설정
       MARIADB_DATABASE: springboot
       MARIADB_USER: flature
